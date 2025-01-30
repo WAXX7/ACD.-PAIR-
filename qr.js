@@ -70,16 +70,16 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "ANJU-XPRO~" + string_session;
+                        let md = "" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
                         let desc = `*𝙳𝚘𝚗𝚝 𝚜𝚑𝚊𝚛𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚠𝚒𝚝𝚑 𝚊𝚗𝚢𝚘𝚗𝚎!! 𝚄𝚜𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚝𝚘 𝚌𝚛𝚎𝚊𝚝𝚎 QUEEN ANJU MD 𝚆𝚑𝚊𝚝𝚜𝚊𝚙𝚙 𝚄𝚜𝚎𝚛 𝚋𝚘𝚝.*\n\n ◦ *Github:* https://github.com/Mrrashmika/Queen_Anju-MD`;
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "QUEEN ANJU MD",
-thumbnailUrl: "https://telegra.ph/file/adc46970456c26cad0c15.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Vaj5XmgFXUubAjlU5642",
+title: "ACD MD",
+thumbnailUrl: "https://cdn.ironman.my.id/q/OyZQR.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029VawxBmHFnSzBLlIQ3y1e",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -93,9 +93,9 @@ renderLargerThumbnail: true
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "QUEEN ANJU MD",
-thumbnailUrl: "https://telegra.ph/file/adc46970456c26cad0c15.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Vaj5XmgFXUubAjlU5642",
+title: "ACD MD",
+thumbnailUrl: "https://cdn.ironman.my.id/q/OyZQR.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029VawxBmHFnSzBLlIQ3y1e",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
